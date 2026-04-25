@@ -29,6 +29,8 @@ brew uninstall --cask yuemiyuki/risuko/app
 
 ## Releasing a new version
 
-The formula and cask are auto-bumped by the release workflow in the main
-[risuko repo](https://github.com/yuemiyuki/risuko). To bump manually, edit
-`version` and `sha256` fields in `Formula/cli.rb` and `Casks/app.rb`.
+The formula and cask are auto-bumped by the
+[`Bump Homebrew tap`](https://github.com/yuemiyuki/risuko/actions/workflows/bump-homebrew-tap.yml)
+workflow in the main [risuko repo](https://github.com/yuemiyuki/risuko); it
+runs on every successful tagged Release and pushes the new `version` and
+`sha256` values to this tap.
