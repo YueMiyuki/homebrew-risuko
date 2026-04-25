@@ -1,4 +1,4 @@
-cask "app" do
+cask "risuko-app" do
   version "0.1.10"
 
   on_arm do

@@ -1,4 +1,4 @@
-class Cli < Formula
+class RisukoCli < Formula
   desc "Risuko command-line interface — full-featured download manager"
   homepage "https://risuko.vercel.app"
   version "0.1.10"
