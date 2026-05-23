@@ -1,28 +1,28 @@
 class RisukoCli < Formula
   desc "Risuko command-line interface — full-featured download manager"
   homepage "https://risuko.vercel.app"
-  version "0.3.0"
+  version "0.3.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/yuemiyuki/risuko/releases/download/v#{version}/risuko-cli-darwin-arm64.tar.gz"
-      sha256 "03f7a25c80cd49e27682762cd216a6d11a47354655b837055b2fd1a1d9dbccf2"
+      sha256 "de48c55e7e711f6c9a0a5fc0439c9b50e260d68d235d741dc174429fe8039aca"
     end
     on_intel do
       url "https://github.com/yuemiyuki/risuko/releases/download/v#{version}/risuko-cli-darwin-x64.tar.gz"
-      sha256 "5b2447d0c3501a91e155b44532615b461776c1ccfd74d0164217db7b3c0ba165"
+      sha256 "1e9eab32a924a2f3402be017895eac3fd00b7db936ba74b3c11d712c76ca85a6"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/yuemiyuki/risuko/releases/download/v#{version}/risuko-cli-linux-arm64.tar.gz"
-      sha256 "c662899f7d22cf0524bfe6a2add36839d8fe67cf31f0c2147d5b83fac79b8c2f"
+      sha256 "6476ec0d2c302bd235340552a6d552fc42039093191ea2bfd636c8ece9fce9b0"
     end
     on_intel do
       url "https://github.com/yuemiyuki/risuko/releases/download/v#{version}/risuko-cli-linux-x64.tar.gz"
-      sha256 "f84d252e75967d9f451399600cf74afbacf42c071f5966ab2e27f6f293cc8bc4"
+      sha256 "1205b05870ffbbb3f21f7c6ecc79061fd4358940da076ddc4eb6ca49af70ceb8"
     end
   end
 
