@@ -1,14 +1,14 @@
 cask "risuko-app" do
-  version "0.5.0"
+  version "0.6.0"
 
   on_arm do
-    sha256 "e8bcfe671ade5b04935dfc188c3c358f147e8e2695dad40ac581af77593c09a2"
+    sha256 "f68403dd57ac23472ee602b0dbbc4937e54391196352e6c155ba68e11b08a527"
 
     url "https://github.com/yuemiyuki/risuko/releases/download/v#{version}/Risuko_#{version}_aarch64.dmg",
         verified: "github.com/yuemiyuki/risuko/"
   end
   on_intel do
-    sha256 "d8a251f2fca54277aeb809c3d760654bbc85611e72da576184d52b57fbafc911"
+    sha256 "a86a21b39695b67e47c2be170e109e94ad0b0cc0f2e7dba4903fdf14c1fb691a"
 
     url "https://github.com/yuemiyuki/risuko/releases/download/v#{version}/Risuko_#{version}_x64.dmg",
         verified: "github.com/yuemiyuki/risuko/"
